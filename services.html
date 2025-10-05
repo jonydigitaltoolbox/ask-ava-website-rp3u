@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ask Ava is a one-on-one tutoring service that helps high school students build confidence and succeed in their studies.">
+  <title>Services - Ask Ava</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            primary: '#0ea5e9',
+            secondary: '#0284c7',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Plus Jakarta Sans', sans-serif; }
+  </style>
+</head>
+<body class="antialiased bg-gray-50">
+  
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <div class="flex-shrink-0">
+            <a href="index.html" class="text-2xl font-bold text-blue-600">Ask Ava</a>
+          </div>
+          <div class="hidden md:flex md:items-center md:space-x-6">
+            
+      <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium transition-colors ">
+        Home
+      </a>
+    
+      <a href="services.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium transition-colors text-blue-600 font-semibold">
+        Services
+      </a>
+    
+      <a href="about.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium transition-colors ">
+        About
+      </a>
+    
+      <a href="contact.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium transition-colors ">
+        Contact
+      </a>
+    
+          </div>
+          <div class="md:hidden">
+            <button type="button" class="text-gray-700 hover:text-blue-600" aria-label="Menu">
+              <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+  
+    <section class="relative bg-gradient-to-r from-gray-900 to-gray-800 text-white py-24">
+      <div class="absolute inset-0 opacity-20" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&h=600&fit=crop&q=80'); background-size: cover; background-position: center;"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">Our Services</h1>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">Comprehensive solutions tailored to your needs</p>
+      </div>
+    </section>
+  
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+            <div class="group relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 ring-2 ring-blue-500">
+              <div class="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold px-4 py-1 rounded-bl-lg">Popular</div>
+              <div class="p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Core academic tutoring</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">Expert core academic tutoring tailored to your needs.</p>
+                <a href="services/core-academic-tutoring.html" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
+                  Learn More
+                  <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="group relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 ">
+              
+              <div class="p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">study & exam preparation</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">Expert study & exam preparation tailored to your needs.</p>
+                <a href="services/study-exam-preparation.html" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
+                  Learn More
+                  <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="group relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 ">
+              
+              <div class="p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">writing & literacy</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">Expert writing & literacy tailored to your needs.</p>
+                <a href="services/writing-literacy.html" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
+                  Learn More
+                  <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="group relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 ">
+              
+              <div class="p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">STEM focus</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">Expert stem focus tailored to your needs.</p>
+                <a href="services/stem-focus.html" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
+                  Learn More
+                  <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="group relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 ">
+              
+              <div class="p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">college & career prep</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">Expert college & career prep tailored to your needs.</p>
+                <a href="services/college-career-prep.html" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
+                  Learn More
+                  <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+            <div class="group relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 ">
+              
+              <div class="p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">soft skills & enrichment</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">Expert soft skills & enrichment tailored to your needs.</p>
+                <a href="services/soft-skills-enrichment.html" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group">
+                  Learn More
+                  <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+  
+    <section class="relative py-20 bg-gradient-to-r from-blue-600 to-blue-800 overflow-hidden">
+      <div class="absolute inset-0 opacity-10" style="background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&h=600&fit=crop&q=80'); background-size: cover; background-position: center;"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-extrabold text-white sm:text-5xl mb-6">Need More Information?</h2>
+        <p class="text-xl text-blue-100 mb-10 max-w-3xl mx-auto leading-relaxed">Get in touch with us to discuss which service is right for you.</p>
+        <a href="contact.html" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-semibold rounded-lg text-blue-700 bg-white hover:bg-blue-50 transition-all duration-200 shadow-xl hover:shadow-2xl transform hover:-translate-y-0.5">
+          Contact Us
+          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+    
+  
+    <footer class="bg-gray-900 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-bold mb-4">Ask Ava</h3>
+            <p class="text-gray-400 leading-relaxed">Ask Ava is a one-on-one tutoring service that helps high school students build confidence and succeed in their studies.</p>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+              <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+              <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+              <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Contact</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>info@askavahelp.com</li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+          <p>&copy; 2025 Ask Ava. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>
